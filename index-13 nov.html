@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InAppBrowser.addEventListener Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+<script type="text/javascript" charset="utf-8"> 
+ document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+        console.log("device is ready");
+        window.requestFileSystem  = window.requestFileSystem || window.webkitRequestFileSystem;
+        window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS, fail);
+    }
+
+    function fail() {
+        console.log("failed to get filesystem");
+    }
+
+    function gotFS(fileSystem) {
+        console.log("got filesystem");
+
+            // save the file system for later access
+        console.log(fileSystem.root.fullPath);
+       window.rootFS = fileSystem.root;  
+
+ } 
+ function downloadImage(url){
+  console.log('download image ' + url);
+  
+  var fileName = new Date().getTime() + ".jpg";
+  ft = new FileTransfer();
+
+  ft.download(
+      url,
+      window.appRootDir.fullPath + "/" + fileName,
+
+      function(entry) {
+          console.log("download complete: " + entry.fullPath);
+          //success(entry.fullPath);
+      },
+
+      function(error) {
+          console.log("download error source " + error.source);
+          console.log("download error target " + error.target);
+          console.log("upload error code" + error.code);
+        //  err(error);
+      }
+
+  );
+  ft.download(
+    
+      url,
+      window.appRootDir.fullPath + "/" + fileName, 
+      function(entry) {
+          console.log("download complete: " + entry.fullPath);
+          //success(entry.fullPath);
+      },
+       
+      function(error) {
+          console.log("download error source " + error.source);
+          console.log("download error target " + error.target);
+          console.log("upload error code" + error.code);
+        //  err(error);
+      }
+
+  );
+} 
+    </script>
+  </head>
+  <body>
+  	<br><br>
+<a href="#" onclick="downloadImage('http://www.ranafrog.org.au/f006.jpg');">downlaod</a>  
+  </body>
+</html>

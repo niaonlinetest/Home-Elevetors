@@ -1,19 +1,19 @@
 /*
  	Author: Vishal Rajpal
  	Filename: ZipPlugin.js
- 	Date: 21-02-2012
+ 	Created Date: 22-01-2013
+ 	Modified Date: 22-01-2013
 */
 
 var ExtractZipFilePlugin=function(){
 };
 
-PhoneGap.addConstructor(function() 
+cordova.addConstructor(function() 
 {
-	PhoneGap.addPlugin('ExtractZipFilePlugin', new ZipPlugin());
+	cordova.addPlugin('ExtractZipFilePlugin', new ExtractZipFilePlugin());
 });
 
 ExtractZipFilePlugin.prototype.extractFile = function(file, successCallback, errorCallback) 
 {
-	alert(file);
-    return PhoneGap.exec(successCallback, errorCallback, "ZipPlugin", "extract", [file]);
+    return cordova.exec(successCallback, errorCallback, "ExtractZipFilePlugin", "extract", [file]);
 };

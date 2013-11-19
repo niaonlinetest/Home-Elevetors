@@ -1,13 +1,15 @@
 /*
  	Author: Vishal Rajpal
  	Filename: ExtractZipFilePlugin.java
- 	Date: 21-02-2012
+ 	Created Date: 22-01-2013
+ 	Modified Date: 22-01-2013
 */
 
 package com.phonegap.plugin.ExtractZipFile;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.Console;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -19,68 +21,78 @@ import java.util.zip.ZipFile;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import com.phonegap.api.Plugin;
-import com.phonegap.api.PluginResult;
+import org.apache.cordova.api.CallbackContext;
+import org.apache.cordova.api.CordovaPlugin;
+import org.apache.cordova.api.PluginResult;
 
-public class ExtractZipFilePlugin extends Plugin {
+import android.util.Log;
 
+public class ExtractZipFilePlugin extends CordovaPlugin {
+
+	
 	@Override
-	public PluginResult execute(String arg0, JSONArray args, String arg2) {
-		PluginResult.Status status = PluginResult.Status.OK;
-        JSONArray result = new JSONArray();
-        try {
-			String filename = args.getString(0);
-			File file = new File(filename);
-			String[] dirToSplit=filename.split("/");
-			String dirToInsert="";
-			for(int i=0;i<dirToSplit.length-1;i++)
-			{
-				dirToInsert+=dirToSplit[i]+"/";
-			}
-			BufferedOutputStream dest = null;
-			BufferedInputStream is = null;
-			ZipEntry entry;
-			ZipFile zipfile;
-			try {
-				zipfile = new ZipFile(file);
-				Enumeration e = zipfile.entries();
-				while (e.hasMoreElements()) 
-				  {
-					  entry = (ZipEntry) e.nextElement();
-					  is = new BufferedInputStream(zipfile.getInputStream(entry));
-					  int count;
-					  byte data[] = new byte[102222];
-					  String fileName = dirToInsert + entry.getName();
-					  File outFile = new File(fileName);
-					  if (entry.isDirectory()) 
-					  {
-						  outFile.mkdirs();
-					  } 
-					  else 
-					  {
-						  FileOutputStream fos = new FileOutputStream(outFile);
-						  dest = new BufferedOutputStream(fos, 102222);
-						  while ((count = is.read(data, 0, 102222)) != -1)
+	public boolean execute(String action, JSONArray args,CallbackContext callbackContext) throws JSONException {
+		// TODO Auto-generated method stub
+		if (action.equals("extract")) {
+			 try {
+					String filename = args.getString(0);
+					File file = new File(filename);
+					String[] dirToSplit=filename.split(File.separator);
+					String dirToInsert="";
+					for(int i=0;i<dirToSplit.length-1;i++)
+					{
+						dirToInsert+=dirToSplit[i]+File.separator;
+					}
+					BufferedOutputStream dest = null;
+					BufferedInputStream is = null;
+					ZipEntry entry;
+					ZipFile zipfile;
+					try {
+						zipfile = new ZipFile(file);
+						Enumeration e = zipfile.entries();
+						while (e.hasMoreElements()) 
 						  {
-							  dest.write(data, 0, count);
+							  entry = (ZipEntry) e.nextElement();
+							  is=new BufferedInputStream(zipfile.getInputStream(entry), 8192);
+							//  is = new BufferedInputStream(zipfile.getInputStream(entry));
+							  int count;
+							  byte data[] = new byte[102222];
+							  String fileName = dirToInsert + entry.getName();
+							  File outFile = new File(fileName);
+							  if (entry.isDirectory()) 
+							  {
+								  outFile.mkdirs();
+							  } 
+							  else 
+							  {
+								  FileOutputStream fos = new FileOutputStream(outFile);
+								  dest = new BufferedOutputStream(fos, 102222);
+								  while ((count = is.read(data, 0, 102222)) != -1)
+								  {
+									  dest.write(data, 0, count);
+								  }
+								  dest.flush();
+								  dest.close();
+								  is.close();
+							  }
 						  }
-						  dest.flush();
-						  dest.close();
-						  is.close();
-					  }
-				  }
-			} catch (ZipException e1) {
-				// TODO Auto-generated catch block
-				return new PluginResult(PluginResult.Status.MALFORMED_URL_EXCEPTION);
-			} catch (IOException e1) {
-				// TODO Auto-generated catch block
-				return new PluginResult(PluginResult.Status.IO_EXCEPTION);
-			}
-			
-		} catch (JSONException e) {
-			// TODO Auto-generated catch block
-			return new PluginResult(PluginResult.Status.JSON_EXCEPTION);
+						callbackContext.success();
+					} catch (ZipException e1) {
+						// TODO Auto-generated catch block
+						callbackContext.error(PluginResult.Status.MALFORMED_URL_EXCEPTION.toString());
+						return false;
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						callbackContext.error(PluginResult.Status.IO_EXCEPTION.toString());
+						return false;
+					}
+					
+				} catch (JSONException e) {
+					// TODO Auto-generated catch block
+					callbackContext.error(PluginResult.Status.JSON_EXCEPTION.toString());
+					return false;
+				}
 		}
-        return new PluginResult(status);
+		return super.execute(action, args, callbackContext);
 	}
 }

@@ -85,8 +85,7 @@
   $("#open").show();
 
  
-  console.log(url + " ab check kro url");
-  console.log(sPath + " ab check kro spath");
+  console.log(url + " ab check kro");
   
   
   // start extracting zip
@@ -109,23 +108,7 @@
 // 	alert(error + ' is thiss error???');
 // }
 
-   
-        function onDeviceReady() {
-            document.body.style.background = 'red'
-            window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
-        }
-        function extractZip(fileName) {
-            zip.extract(fileName, '/sdcard/', win, fail);
-        }
-        function getTempDir(dirName) {
-            zip.getTempDir(dirName, win, fail);
-        }
-        function win(status) {
-            alert('Message: ' + status done hogya);
-        }
-        function fail(status) {
-            alert('Error: ' + status error);
-        }
+
 
 
 

@@ -35,7 +35,7 @@
       exclusive: false
     }, onGetDirectorySuccess, onGetDirectoryFail);
     // index link--------------
-    var mySiteUrl = entry.fullPath + "/example/site2/index.html"
+    var mySiteUrl = entry.fullPath + "/example/site/index.html"
     var divOpen = document.getElementById("open");
     divOpen.setAttribute("href", mySiteUrl);
 
@@ -62,7 +62,7 @@
       var fileTransfer = new FileTransfer();
       fileEntry.remove();
  
-      fileTransfer.download("http://bluesapphirecreations.info/design/d1/he-app/1/site.zip", sPath + "/example/" + "site.zip",
+      fileTransfer.download("http://bluesapphirecreations.info/design/d1/he-app/site.zip", sPath + "/example/" + "site.zip",
 
       function(theFile) {
         showLink(theFile.toURL());

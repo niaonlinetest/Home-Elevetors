@@ -23,6 +23,11 @@
      function onBodyLoad() {
   document.addEventListener("deviceready", onDeviceReady, false);
 
+  function onDeviceReady() {
+      document.body.style.background = 'red'
+      window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
+    }
+
   // create dir-----------------------------------------------------------
 
 
@@ -102,22 +107,36 @@
         console.log('start extracting now vip');
         
 
- function extractFile(fileName)
-{
-  alert(fileName + ' this is file name');
-  alert(url);
-  var ZipClient = new ExtractZipFilePlugin();
-  ZipClient.extractFile( url,win,fail,'ExtractZipFilePlugin');
-}
-function win(status) 
-{ 
-   alert('Success'+status);
-} 
+//  function extractFile(fileName)
+// {
+//   alert(fileName + ' this is file name');
+//   alert(url);
+//   var ZipClient = new ExtractZipFilePlugin();
+//   ZipClient.extractFile( url,win,fail,'ExtractZipFilePlugin');
+// }
+// function win(status) 
+// { 
+//    alert('Success'+status);
+// } 
   
-function fail(error) 
-{ 
-  alert(error + ' is thiss error???');
-}
+// function fail(error) 
+// { 
+//   alert(error + ' is thiss error???');
+// }
+
+
+    function extractZip(fileName) {
+      zip.extract(fileName, '/mnt/sdcard/', win, fail);
+    }
+    function getTempDir(dirName) {
+      zip.getTempDir(dirName, win, fail);
+    }
+    function win(status) {
+      alert('Message: ' + status done hai);
+    }
+    function fail(status) {
+      alert('Error: ' + status error);
+    }
 
 
 
@@ -125,6 +144,7 @@ function fail(error)
         //extractFile(sPath + "/example/" + "site.zip");
         console.log('end extracting now vip, my func is fine ');
        // extractFile('example/site.zip');
+      extractZip('example/site.zip');
 
  }
 

@@ -1,1 +1,1 @@
-<plugin name="ZipPlugin" value="com.phonegap.plugin.ExtractZipFile.ExtractZipFilePlugin" />
+<plugin name="ExtractZipFilePlugin" value="com.phonegap.plugin.ExtractZipFile.ExtractZipFilePlugin" />

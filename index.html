@@ -103,7 +103,7 @@
         
  function extractFile(fileName)
 {
-	alert(fileName + ' this one');
+	alert(fileName + ' this is file name');
 	var ZipClient = new ExtractZipFilePlugin();
 	ZipClient.extractFile( 'mnt/sdcard/'+fileName,win,fail,'ExtractZipFilePlugin');
 }
@@ -114,7 +114,7 @@ function win(status)
   
 function fail(error) 
 { 
-	alert(error + ' is thiss???');
+	alert(error + ' is thiss error???');
 }
 
 

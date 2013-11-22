@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="cordova.plugin.ExtractZip"
+      version="0.1.0">
+    <name>ExtractZip</name>
+
+    <js-module src="www/ExtractZip.js" name="ExtractZip">
+        <clobbers target="ExtractZIp" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ExtractZip">
+                <param name="android-package" value="org.apache.cordova.plugin.ExtractZip.ExtractZipPlugin"/>
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config-file>
+
+	<source-file src="src/android/ExtractZipPlugin.java" target-dir="src/org/apache/cordova/plugin/ExtractZip" />
+      
+     </platform>
+     
+     <!-- ios -->
+     <platform name="ios">    
+         <config-file target="config.xml" parent="/*">
+             <feature name="ExtractZip">
+                 <param name="ios-package" value="ExtractZip" />
+             </feature>
+         </config-file>
+         
+	<framework src="libz.dylib" />
+
+         <header-file src="src/ios/ExtractZip.h" />
+         <source-file src="src/ios/ExtractZip.m" />
+	 <header-file src="src/ios/SSZipArchive/SSZipArchive.h" />
+	 <source-file src="src/ios/SSZipArchive/SSZipArchive.m" />
+         <header-file src="src/ios/SSZipArchive/minizip/crypt.h" />
+	 <source-file src="src/ios/SSZipArchive/minizip/ioapi.c" />
+         <header-file src="src/ios/SSZipArchive/minizip/ioapi.h" />
+	 <source-file src="src/ios/SSZipArchive/minizip/mztools.c" />
+         <header-file src="src/ios/SSZipArchive/minizip/mztools.h" />
+	 <source-file src="src/ios/SSZipArchive/minizip/unzip.c" />
+         <header-file src="src/ios/SSZipArchive/minizip/unzip.h" />
+	 <source-file src="src/ios/SSZipArchive/minizip/zip.c" />
+         <header-file src="src/ios/SSZipArchive/minizip/zip.h" />
+
+	<info>
+	This plugin requires libz.dylib that is available in the iOS SDK.
+	If you will face a linker errors, you need to add the library manually.
+	</info>
+
+     </platform>
+          
+</plugin> 

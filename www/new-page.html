@@ -24,7 +24,9 @@
         function extractFile(fileName)
         {
             var ZipClient = new ExtractZipFilePlugin();
+            console.log('/mnt/sdcard'+fileName );
             ZipClient.extractFile('sdcard/'+fileName,win,fail,'ExtractZipFilePlugin');
+
         }
         function win(status) 
         { 

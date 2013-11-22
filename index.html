@@ -106,7 +106,7 @@
   alert(fileName + ' this is file name');
 	alert(url);
 	var ZipClient = new ExtractZipFilePlugin();
-	ZipClient.extractFile( 'mnt/sdcard/'+fileName,win,fail,'ExtractZipFilePlugin');
+	ZipClient.extractFile( url,win,fail,'ExtractZipFilePlugin');
 }
 function win(status) 
 { 

@@ -20,13 +20,17 @@
     <script type="text/javascript"  charset="utf-8" src="ExtractZip.js">
     </script>
     <script type="text/javascript">
-     function onBodyLoad() {
-  document.addEventListener("deviceready", onDeviceReady, false);
-
+     document.addEventListener('deviceready', onDeviceReady);
   function onDeviceReady() {
       document.body.style.background = 'red'
       window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
     }
+     function onBodyLoad() {
+
+  document.addEventListener("deviceready", onDeviceReady, false);
+
+
+ 
 
   // create dir-----------------------------------------------------------
 

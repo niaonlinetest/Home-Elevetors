@@ -1,45 +1,181 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <title>Hello World</title>
+  <head>
+    <title>
+    </title>
+    <!-- Android <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, user-scalable=no;" />
+    <meta charset="utf-8">
+    -->
+    <!-- iPad/iPhone specific css below, add after your main css>
+<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="/ipad.css" type="text/css" />
+<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="/iphone.css" type="text/css" />
+-->
+    <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from
+    http://www.JSON.org/json2.js into your www directory and include it here -->
+    <script src="jquery.min.js">
+    </script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js">
+    </script>
+    <script type="text/javascript"  charset="utf-8" src="ExtractZip.js">
+    </script>
+    <script type="text/javascript">
+     function onBodyLoad() {
+  document.addEventListener("deviceready", onDeviceReady, false);
+
+  // create dir-----------------------------------------------------------
+
+
+  window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, onRequestFileSystemSuccess, null);
+
+  function onRequestFileSystemSuccess(fileSystem) {
+    var entry = fileSystem.root;
+    entry.getDirectory("example", {
+      create: true,
+      exclusive: false
+    }, onGetDirectorySuccess, onGetDirectoryFail);
+    // index link--------------
+    var mySiteUrl = entry.fullPath + "/example/site/index.html"
+    var divOpen = document.getElementById("open");
+    divOpen.setAttribute("href", mySiteUrl);
+
+  }
+
+  function onGetDirectorySuccess(dir) {
+    console.log("Created dir " + dir.name);
+  }
+
+  function onGetDirectoryFail(error) {
+    console.log("Error creating directory " + error.code);
+  }
+  //end dir -------------------------------------
+ }
+// downloading files-------------------------------------------
+ function downloadFile() {
+  window.requestFileSystem(
+  LocalFileSystem.PERSISTENT, 0, function onFileSystemSuccess(fileSystem) {
+    fileSystem.root.getFile("dummy.html", {
+      create: true,
+      exclusive: false
+    }, function gotFileEntry(fileEntry) {
+      var sPath = fileEntry.fullPath.replace("dummy.html", "");
+      var fileTransfer = new FileTransfer();
+      fileEntry.remove();
+ 
+      fileTransfer.download("http://bluesapphirecreations.info/design/d1/he-app/site.zip", sPath + "/example/" + "site.zip",
+
+      function(theFile) {
+        showLink(theFile.toURL());
         
-       
-    </head>
-    <body>
         
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="ZipPlugin.js"></script>
+      }, function(error) {
+        console.log("download error source " + error.source);
+        console.log("download error target " + error.target);
+        console.log("upload error code: " + error.code);
+      }  
+      );
+    }, fail);
+  }, fail);
 
-        <script type="text/javascript">
+ } 
+//downloading end------------------------------
+ function showLink(url) {
 
-        document.addEventListener("deviceready",onDeviceReady);
+  //alert(url);
+  $("#open").show();
 
-        function onDeviceReady()
-        {
+ 
+  console.log(url + " ab check kro url");
+  console.log(sPath + " ab check kro spath");
+  
+  
+  // start extracting zip
+        console.log('start extracting now vip');
+        
+//  function extractFile(fileName)
+// {
+//   alert(fileName + ' this is file name');
+// 	alert(url);
+// 	var ZipClient = new ExtractZipFilePlugin();
+// 	ZipClient.extractFile( url,win,fail,'ExtractZipFilePlugin');
+// }
+// function win(status) 
+// { 
+//    alert('Success'+status);
+// } 
+  
+// function fail(error) 
+// { 
+// 	alert(error + ' is thiss error???');
+// }
+
+   
+        function onDeviceReady() {
+            document.body.style.background = 'red'
+            window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
+        }
+        function extractZip(fileName) {
+            zip.extract(fileName, '/sdcard/', win, fail);
+        }
+        function getTempDir(dirName) {
+            zip.getTempDir(dirName, win, fail);
+        }
+        function win(status) {
+            alert('Message: ' + status done hogya);
+        }
+        function fail(status) {
+            alert('Error: ' + status error);
         }
 
-        function extractFile(fileName)
-        {
-            var ZipClient = new ExtractZipFilePlugin();
-            console.log('/mnt/sdcard'+fileName );
-            ZipClient.extractFile('/mnt/sdcard/'+fileName,win,fail,'ExtractZipFilePlugin');
 
-        }
-        function win(status) 
-        { 
-           alert('Success'+status);
-        } 
-          
-        function fail(error) 
-        { 
-            alert(error);
-        }
-        </script>
-        <input type="button" value="Extract Zip File" onClick="extractFile('example/site.zip');"/>
-        
-        
-    </body>
-</html>
+
+       // extractFile(url);
+        //extractFile(sPath + "/example/" + "site.zip");
+        console.log('end extracting now vip, my func is fine ');
+        ExtractZip('example/site.zip');
+
+ }
+
+
+ function fail(evt) {
+  console.log(evt.target.error.code);
+ }
+
+ /* When this function is called, PhoneGap has been initialized and is ready to roll */
+/* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
+see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+for more details -jm */
+
+ function onDeviceReady() {
+  // do your thing!
+  downloadFile();
+
+
+ }
+    </script>
+  </head>
+  <body >
+
+    <h1>
+      Hey, it's PhoneGap!
+    </h1>
+    <p>
+      Don't know how to get started? Check out
+      <em>
+        <a target="_blank" href="/http://www.phonegap.com/start">PhoneGap Start</a>
+      </em>
+    </p>
+    <br />
+    <p>
+      DOWNLOADING FILE...
+      <input type="button" value="start" onclick="onBodyLoad()"   /> 
+      <br />
+      <span id="ready">
+      </span>
+      <a href="#" id="open" style="display: none;">open</a>
+    </p>
+
+<a href="www/new-page.html">click  here</a>
+
+  </body>
+  </html>

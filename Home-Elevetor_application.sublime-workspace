@@ -1,0 +1,1003 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"extracting"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"cl",
+				"click	click"
+			],
+			[
+				"pro",
+				"prop	jQuery"
+			],
+			[
+				"md",
+				"middle"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"h",
+				"height	jQuery"
+			],
+			[
+				"hi",
+				"height	jQuery"
+			],
+			[
+				"ani",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"chakri",
+				"chakriNew"
+			],
+			[
+				"ov",
+				"ov	overflow: ${1:hidden};"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"script",
+				"getScript	jQuery"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"anar",
+				"anar-ani"
+			],
+			[
+				"chin",
+				"chink"
+			],
+			[
+				"stick",
+				"stick-burned"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"c",
+				"css	jQuery"
+			],
+			[
+				"ro",
+				"rotate	jsGraphics"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"tv",
+				"tvc-vdo"
+			],
+			[
+				"j",
+				"justify"
+			],
+			[
+				"togg",
+				"toggleClass	jQuery"
+			],
+			[
+				"has",
+				"hasClass	jQuery"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"svg",
+				"svgGroup"
+			],
+			[
+				"add",
+				"addClass	jQuery"
+			],
+			[
+				"ta",
+				"target"
+			],
+			[
+				"s",
+				"strk	strk"
+			],
+			[
+				"time",
+				"timeout	timeout"
+			],
+			[
+				"de",
+				"delay	jQuery"
+			],
+			[
+				"o",
+				"object"
+			],
+			[
+				"fade",
+				"fadeOut	jQuery"
+			],
+			[
+				"he",
+				"head2"
+			],
+			[
+				"chile",
+				"children	jQuery"
+			],
+			[
+				"sl",
+				"slideDown	jQuery"
+			],
+			[
+				"borde",
+				"frameborder"
+			],
+			[
+				"sc",
+				"scrolling	i/frame"
+			],
+			[
+				"mou",
+				"mouseenter	jQuery"
+			],
+			[
+				"al",
+				"alt"
+			],
+			[
+				"map",
+				"map-name"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"media",
+				"media"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"di",
+				"d-ib+	display: inline-block;\n*display: inline;\n*zoom: 1;"
+			],
+			[
+				"pr",
+				"pos-r	position: relative;"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"dtbc",
+				"d-tbc	display: table-cell;"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"cols",
+				"colspan	td/th"
+			],
+			[
+				"ca",
+				"cellpadding	table"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"prp",
+				"prop()	jQuery"
+			],
+			[
+				"par",
+				"parent()	jQuery"
+			],
+			[
+				"dis",
+				"disable()	jQueryCallbacks"
+			],
+			[
+				"click",
+				"click	click"
+			],
+			[
+				"cli",
+				"click()	jQuery"
+			],
+			[
+				"conf",
+				"noConflict()	jQuery"
+			],
+			[
+				"alert",
+				"andSelf()	jQueryDeprecated"
+			],
+			[
+				"va",
+				"val()	jQuery"
+			],
+			[
+				"remo",
+				"removeClass()	jQuery"
+			],
+			[
+				"att",
+				"attr()	jQuery"
+			],
+			[
+				"clic",
+				"dblclick()	jQuery"
+			],
+			[
+				"on",
+				"on()	jQuery"
+			],
+			[
+				"si",
+				"SITE_PATH"
+			],
+			[
+				"S",
+				"SITE_PATH"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"ff",
+				"ff-a	font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"cu",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"med",
+				"min-device-width"
+			],
+			[
+				"dn",
+				"direction"
+			],
+			[
+				"ls",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"doc",
+				"docR	docR"
+			],
+			[
+				"brs",
+				"border-radius"
+			],
+			[
+				"bgr",
+				"background-repeat"
+			],
+			[
+				"bgc",
+				"bgc-t	background-color: transparent;"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"p",
+				"php	<?php … ?>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4955,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSHint/JSHint.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"for",
+				"Format Code"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"f",
+				"Format Code"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: @moz"
+			],
+			[
+				"INS",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3-cr",
+				"Snippet: bs3-container"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"jshi",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"js",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"fo",
+				"Format Code"
+			],
+			[
+				"fora",
+				"Format Code"
+			],
+			[
+				"forma",
+				"Format Code"
+			],
+			[
+				"lint",
+				"Tag: Lint Selection or Document"
+			],
+			[
+				"mi",
+				"Minify Javascript"
+			],
+			[
+				"mini",
+				"Minify Javascript to file"
+			],
+			[
+				"min",
+				"Minify Javascript to file"
+			],
+			[
+				"tid",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"cli",
+				"Clipboard History"
+			],
+			[
+				"ti",
+				"Tidy CSS"
+			],
+			[
+				"css",
+				"Tidy CSS (Highest Compression)"
+			],
+			[
+				"css ",
+				"Tidy CSS (Highest Compression)"
+			],
+			[
+				"css mi",
+				"Tidy CSS (Highest Compression)"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"codef",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"boo",
+				"Snippet: Bootstrap accordion"
+			],
+			[
+				"tidy",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"prefi",
+				"Preferences: Prefixr Key Bindings – User"
+			],
+			[
+				"prefixr",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"vi",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"fec",
+				"Fetch: Manage"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"start",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"boot",
+				"Snippet: Bootstrap accordion"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/Home-Elevetor_application.sublime-project",
+		"/D/vipul/Home elevator ipad/PhoneGap-ZipFile-Plugin-2.3.0-master/PhoneGap-ZipFile-Plugin-2.3.0-master/www/index.html",
+		"/D/vipul/Home elevator ipad/PhoneGap-ZipFile-Plugin-master/PhoneGap-ZipFile-Plugin-master/README",
+		"/D/vipul/Home elevator ipad/PhoneGap-ZipFile-Plugin-master/PhoneGap-ZipFile-Plugin-master/www/index.html",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/index.html",
+		"/C/Users/vipul.bsc/Documents/GitHub/FM-all/ZipPlugin.js",
+		"/D/vipul/manya/SAT/index.php",
+		"/C/Users/vipul.bsc/Documents/GitHub/FM-all/index.html",
+		"/D/vipul/Home elevator ipad/PhoneGap-ZipFile-Plugin-2.3.0-master/PhoneGap-ZipFile-Plugin-2.3.0-master/www/ZipPlugin.js",
+		"/D/vipul/Home elevator ipad/PhoneGap-ZipFile-Plugin-2.3.0-master/PhoneGap-ZipFile-Plugin-2.3.0-master/www/spec.html",
+		"/C/Users/vipul.bsc/Documents/GitHub/FM-all/res/xml/plugins.xml",
+		"/C/Users/vipul.bsc/Documents/GitHub/FM-all/home-elevators-app.sublime-project",
+		"/C/Users/vipul.bsc/Documents/GitHub/FM-all/home-elevators-app.sublime-workspace",
+		"/D/vipul/Home elevator ipad/app/index.html",
+		"/D/vipul/cp/dev/index.php",
+		"/D/vipul/cp/dev/includes/header.inc.php",
+		"/D/vipul/LG/red-man/24th oct 2013/bin-debug/index.html",
+		"/D/vipul/giir/final/17th-sept/css/main-style.css",
+		"/D/vipul/Amplify/edit/item.html",
+		"/D/vipul/LG/red-man/24th oct 2013/bin-debug/lgg2.js",
+		"/D/vipul/temp/design-demo/final.html",
+		"/D/vipul/amplify/dwnload/_settings/featured-property",
+		"/D/vipul/LG/red-man/24th oct 2013/bin-debug/Index.html",
+		"/D/vipul/Amlify/edit/foundation.css",
+		"/D/vipul/Amlify/dwnload/_settings/featured-property",
+		"/D/vipul/Amlify/dwnload/_settings/featured-property2",
+		"/D/vipul/Amlify/client/tes.html",
+		"/D/vipul/Amlify/edit/home-search3.html",
+		"/D/vipul/Amlify/edit/home-search.html",
+		"/D/vipul/Tribeca care/animation/css/leaves.css",
+		"/C/Users/vipul.bsc/Desktop/assd.html",
+		"/D/vipul/Tribeca care/animation/index.html",
+		"/D/vipul/Tribeca care/animation/js/leaves_falling.js",
+		"/C/Users/vipul.bsc/AppData/Roaming/Sublime Text 2/Packages/User/@moz.sublime-snippet",
+		"/D/vipul/Tribeca care/animation/js/leaves.js",
+		"/C/Users/vipul.bsc/Desktop/Dynamic Drive DHTML Script- Autumn leaves.htm",
+		"/D/vipul/Tribeca care/animation/test.html",
+		"/D/vipul/Tribeca care/animation/index2.html",
+		"/D/vipul/vipul library/jquery-falling_leaves/index.html",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/1. Microsite Flash source/bin-debug/Index.html",
+		"/D/vipul/LG/diwali 2013/html/sliced/js/script.js",
+		"/D/vipul/vipul library/spritesin5mins/demo.html",
+		"/D/vipul/LG/diwali 2013/html/sliced/index.html",
+		"/C/Users/vipul.bsc/Desktop/ani/av.htm",
+		"/C/Users/vipul.bsc/Desktop/ani/Falling Leaves — Using CSS Animations and Transforms_files/leaves.js",
+		"/D/vipul/Tribeca care/animation/js/rotate3Di-0.9.js",
+		"/D/vipul/vipul library/jquery-falling_leaves/js/leaves_falling.js",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/1. Microsite Flash source/src/classes/display/intro/CopyofIntroContainer.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug2/Index.html",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/display/intro/IntroContainer.as",
+		"/D/vipul/LG/red-man/17th oct/5.57 PM/1. Social plug-in/lgg2.js",
+		"/D/vipul/One-world tele/allocation.html",
+		"/D/vipul/LG/diwali 2013/html/sliced/blissfull_offers.html",
+		"/D/vipul/LG/red-man/17th oct/5.57 PM/2. Event details edit/2. Event details edit - description.txt",
+		"/D/vipul/LG/red-man/17th oct/5.57 PM/2. Event details edit/IntroContainer.as",
+		"/D/vipul/LG/red-man/17th oct/1. Social plug-in/lgg2.js",
+		"/D/vipul/LG/diwali 2013/html/sliced/css/layout.css",
+		"/D/vipul/LG/diwali 2013/html/full animation/index.html",
+		"/D/vipul/LG/diwali 2013/17 oct/sliced/sliced/festive_delights.html",
+		"/D/vipul/LG/diwali 2013/17 oct/sliced/sliced/ft.html",
+		"/D/vipul/LG/diwali 2013/17 oct/sliced/sliced/crackerOn.html",
+		"/D/vipul/lg/crack On/dev/CrackerOn/svg/css/ie6.css",
+		"/D/vipul/lg/crack On/dev/CrackerOn/svg/css/style2.css",
+		"/D/vipul/LG/crack On/dev/CrackerOn/svg/share_ifrmae-new.php",
+		"/D/vipul/lg/crack On/dev/CrackerOn/svg/popup.php",
+		"/D/vipul/LG/crack On/dev/CrackerOn/svg/index2.php",
+		"/D/vipul/lg/crack On/dev/CrackerOn/svg/js/jquery.zclip.min.js",
+		"/D/vipul/lg/crack On/dev/CrackerOn/svg/js/jquery-1.7.2.min.js",
+		"/D/vipul/lg/crack On/dev/CrackerOn/svg/js/jquery.zclip.js",
+		"/D/vipul/bin-debug/history/history.js",
+		"/D/vipul/bin-debug/swfobject.js",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/Main.html",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/Index.html",
+		"/D/vipul/bin-debug/Index.html",
+		"/D/vipul/bin-debug/Main.html",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/history/history.js",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/net/hires/debug/Stats.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/display/others/DetailEvent.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/display/intro/IntroVideo.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/display/MainContainer.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/data/CommonData.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/data/Asset.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/data/EntryEvent.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/Index.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/Main.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/.actionScriptProperties",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/model/AssetManager.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/events/CmEvent.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/innored/events/SwfLoaderEvent.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/innored/events/ImageLoaderProgressEvent.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/data/Tracking.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/display/intro/CopyofIntroContainer.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/display/video/InheritanceVideo.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/classes/display/video/VideoKnockOn.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/innored/display/Rect.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/innored/utils/ButtonMotionUtil3.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/innored/utils/FrameUtil.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/innored/utils/NetUtil.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/innored/utils/StringUtil.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/src/innored/events/XMLLoaderEvent.as",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/.project",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/.settings/org.eclipse.core.resources.prefs",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/com/greensock/easing/easing_readme.txt",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/libs/mAssets/catalog.xml",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_en.xml",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_zh.xml",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/textLayout_2.0.0.232.swz",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/libs/mAssets.swf",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/libs/mAssets.swc",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/classes/display/video/VideoResultFail",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/com/greensock/loading/changelog.txt",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/com/greensock/changelog.txt",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_es.xml",
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_en.xml.bak",
+		"/D/vipul/LG/diwali 2013/14 oct/css/animation.css",
+		"/D/vipul/LG/diwali 2013/14 oct/js/particle2.js",
+		"/D/vipul/LG/diwali 2013/14 oct/js/script.js",
+		"/D/vipul/LG/diwali 2013/14 oct/index.html",
+		"/D/vipul/LG/diwali 2013/14 oct/css/layout.css",
+		"/D/vipul/molife/dev/js/SpryTabbedPanels.js",
+		"/D/vipul/LG/diwali 2013/11 oct/js/script.js",
+		"/D/vipul/LG/diwali 2013/11 oct/index.html",
+		"/C/Users/vipul.bsc/Desktop/j2.htm",
+		"/D/vipul/LG/diwali 2013/animation/css/animation.css",
+		"/D/vipul/LG/diwali 2013/animation/js/jquery.firefly.js",
+		"/D/vipul/LG/diwali 2013/animation/js/particle.js",
+		"/D/vipul/LG/diwali 2013/animation/index2.html",
+		"/D/vipul/LG/diwali 2013/animation/js/script.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"banner_container",
+			"width=\"438\" height=\"302\"",
+			"height=\"302\"",
+			"li",
+			"div",
+			"lg.com/global/g2",
+			"http://www.lg.com/global/g2",
+			"twit",
+			"&nbsp;",
+			" &nbsp;",
+			"</option>",
+			"leaf4",
+			"speed",
+			"webkitAnimationName",
+			"webkit",
+			"321px",
+			"321",
+			"500px",
+			"play",
+			"10",
+			"play",
+			"wind",
+			"doc",
+			"fallingLeaves",
+			"nav_fire.png",
+			"png",
+			"comment",
+			"hover",
+			"faceb",
+			"backgr",
+			"hover",
+			"social",
+			"hover",
+			"85px",
+			"share",
+			"ifr",
+			"br",
+			"obj",
+			"fb",
+			"share",
+			"SHARE_FB",
+			"FsFBLogin",
+			"textLayout_2.0.0.232",
+			"swf",
+			"library",
+			"rotate",
+			"chakriNew",
+			"emitter3",
+			"emitter2",
+			"_timer",
+			"_sparkle",
+			"particle_emitter",
+			"30",
+			"8s",
+			"4",
+			"chink",
+			"anar",
+			"4s",
+			"4",
+			"20",
+			"5",
+			"new",
+			"color",
+			"circle",
+			"circ",
+			"filter",
+			"stroke",
+			"media",
+			"navbar",
+			"aside",
+			"side",
+			"domain",
+			"San Francisco",
+			"delhi",
+			"San Francisco",
+			"1171",
+			"1117",
+			"shoc",
+			".btn",
+			"btn",
+			"btn-left-side",
+			"cl",
+			".clear",
+			".cl",
+			"rotate",
+			"foo",
+			"scrollbar",
+			"nano has-scrollbar",
+			"client",
+			"sitelink",
+			"<footer id=\"footer\">\n		<div class=\"copyright\">\n			<p><a href=\"legal.html\" target=\"_blank\">Legal</a><span> | </span><a href=\"privacy.html\" target=\"_blank\">Privacy &amp; Cookie Policy</a></p>\n			<address>Copyright &copy; 2013 LG Electronics. All Rights Reserved.</address>\n		</div>\n		<div class=\"sitelink\">\n			<span>Go to LG.com</span>\n			<select id=\"country\" class=\"selectbox\">\n				<option value=\"\">select</option>\n				<option value=\"m.lg.com/dz/telephones-mobiles\">Algeria/Francais</option>\n				<option value=\"m.lg.com/ar/todos-los-celulares\">Argentina/Español</option>\n				<option value=\"m.lg.com/au/phones\">Australia/English</option>\n				<option value=\"m.lg.com/at/mobiltelefone\">Austria/Deutsch</option>\n				<option value=\"m.lg.com/be_fr/telephones-mobiles\">Belgium/Français</option>\n				<option value=\"mobi.lge.com/br/aparelhos\">Brazil/Português</option>\n				<option value=\"m.lg.com/bg/telefoni\">Bulgaria/България</option>\n				<option value=\"m.lg.com/ca_en/mobile-phones\">Canada/English</option>\n				<option value=\"m.lg.com/ca_fr/telephones-mobiles\">Canada/Français</option>\n				<option value=\"m.lg.com/cl/celulares\">Chile/Español</option>\n				<option value=\"m.lg.com/cn/mobile-phones\">China/中文</option>\n				<option value=\"m.lg.com/co/todos-los-telefonos\">Colombia/Español</option>\n				<option value=\"m.lg.com/hr/mobilni-telefoni\">Croatia/Hrvatska</option>\n				<option value=\"m.lg.com/dk/mobiltelefoner\">Denmark/Dansk </option>\n				<option value=\"m.lg.com/eg_ar/mobile-phones\">Egypt/العربية</option>\n				<option value=\"m.lg.com/eg_en/mobile-phones\">Egypt/English</option>\n				<option value=\"m.lg.com/fi/matkapuhelimet\">Finland/Suomeksi</option>\n				<option value=\"m.lg.com/fr/telephones-mobiles\">France/Francais</option>\n				<option value=\"m.lg.com/de/handy\">Germany/Deutsch </option>\n				<option value=\"m.lg.com/gr/mobile-phones\">Greece/Greek</option>\n				<option value=\"m.lg.com/hk/mobile-phones\">HongKong/中文</option>\n				<option value=\"m.lg.com/hk_en/mobile-phones\">HongKong/English</option>\n				<option value=\"m.lg.com/hu/mobiltelefon-keszulekek\">Hungary/Magyar</option>\n				<option value=\"m.lg.com/in/mobile-phones\">India/English</option>\n				<option value=\"m.lg.com/id/phones\">Indonesia/English</option>\n				<option value=\"m.lg.com/ir/mobile-phones\">Iran/فارسی</option>\n				<option value=\"m.lg.com/il/lg-phones\">Israel/Hebrew </option>\n				<option value=\"m.lg.com/it/telefoni-cellulari\">Italy/Italiano</option>\n				<option value=\"m.lg.com/jp/mobile-phone\">Japan/日本語</option>\n				<option value=\"m.lg.com/kz/mobile-phones\">Kazakhstan/Русский</option>\n				<option value=\"m.lg.com/my/mobile-phones\">Malaysia/English</option>\n				<option value=\"m.lg.com/mx/telefonos-celulares\">Mexico/Español</option>\n				<option value=\"m.lg.com/ma/telephones-mobiles\">Morocco/Francais</option>\n				<option value=\"m.lg.com/nl/mobiele-telefoons\">Netherland-Belgium/Dutch</option>\n				<option value=\"m.lg.com/nz/phones\">NewZealand/English</option>\n				<option value=\"m.lg.com/africa_en/cell-phones\">Nigeria/English</option>\n				<option value=\"m.lg.com/no/mobiltelefoner\">Norway/Norsk</option>\n				<option value=\"m.lg.com/pa/telefonos-celulares\">Panama/Español</option>\n				<option value=\"m.lg.com/pa_en/cellphones\">Panama/English</option>\n				<option value=\"m.lg.com/pe/celulares\">Peru/Español</option>\n				<option value=\"m.lg.com/ph/all-mobile-phone\">Philippines/English</option>\n				<option value=\"m.lg.com/pl/telefony\">Poland/Polski</option>\n				<option value=\"m.lg.com/pt/telemoveis\">Portugal/Português</option>\n				<option value=\"m.lg.com/ru/mobile-phones\">Russia/Русский</option>\n				<option value=\"m.lg.com/sa/mobile-phones\">SaudiArabia/العربية</option>\n				<option value=\"m.lg.com/rs/svi-telefoni\">Serbia/Srbija</option>\n				<option value=\"m.lg.com/sg/all-phones\">Singapore/English</option>\n				<option value=\"m.lg.com/za/all-phones/all-phones\">SouthAfrica/English</option>\n				<option value=\"m.lg.com/es/smartphones\">Spain/Espanol</option>\n				<option value=\"m.lg.com/se/mobiltelefoner\">Sweden/Svensk</option>\n				<option value=\"m.lg.com/ch_de/mobiltelefone\">Switzerland/Deutsch</option>\n				<option value=\"m.lg.com/ch_fr/telephones-mobiles\">Switzerland/Français</option>\n				<option value=\"m.lg.com/tw/all-smart-phones\">Taiwan/中文</option>\n				<option value=\"m.lg.com/th/mobile-phone\">Thailand/ไทย</option>\n				<option value=\"m.lg.com/tr/smart-phones\">Turkey/Türkçe</option>\n				<option value=\"m.lg.com/ae/all-mobile-phones\">U.A.E/English</option>\n				<option value=\"m.lg.com/ae_ar/mobile-phones\">U.A.E/العربية</option>\n				<option value=\"m.lg.com/us/cell-phones\">U.S.A/ English</option>\n				<option value=\"m.lg.com/uk/lg-mobile-phones\">UnitedKingdom/English</option>\n				<option value=\"m.lg.com/vn/dien-thoai-di-dong\">Vietnam/Việt Nam</option>\n			</select>\n		</div>\n		<ul>\n			<li>All specifications and descriptions provided herein may be different from the actual specifications and \n			descriptions for the product.</li>\n			<li>LG Electronics reserves the right to make changes to this document and the product described herein, \n			at anytime, without obligation on LG Electronics to provide notification of such change.</li>\n			<li>All functionality, features, specifications, GUI and other product information provided in this document \n			including, but not limited to, the benefits, design, pricing, components, performance, availability, \n			and capabilities of the product are subject to change without notice or obligation. The contents within the \n			screen are simulated images and are for demonstration purposes only.</li>\n		</ul>\n	</footer>",
+			"ani",
+			".   ",
+			".",
+			".  ",
+			".",
+			"\n",
+			"style",
+			"5",
+			"loram",
+			"513",
+			"c",
+			"f",
+			".post-list.columns.ten",
+			"959",
+			"960",
+			"com",
+			"960",
+			"</span><br />",
+			"</span><br /> ",
+			"<span style=\"font-style: normal; font-family: 'lucida grande', helvetica, arial, verdana, sans-serif;\">",
+			"include",
+			"displayMemberInfo(3)",
+			"area",
+			"area ",
+			"totalaccessco.com",
+			"mobile",
+			"phone",
+			"table",
+			"phone",
+			"stack",
+			"info",
+			"lightbox-0.4.css",
+			"media",
+			"lightbox-0.4.css",
+			"jquery.lightbox-0.4.css",
+			"ifra",
+			"info"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"delhi",
+			". ",
+			".  ",
+			". ",
+			"'",
+			"",
+			"jQuery"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3744,
+								3744
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1860.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 223.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/vipul.bsc/Documents/GitHub/FM-all/home-elevators-app.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

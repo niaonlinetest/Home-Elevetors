@@ -25,8 +25,7 @@
 
   document.addEventListener("deviceready", onDeviceReady, false);
 
-        document.body.style.background = 'red'
-        window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
+       
  //window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
 
   // create dir-----------------------------------------------------------
@@ -124,7 +123,8 @@
 // { 
 //   alert(error + ' is thiss error???');
 // }
-
+ document.body.style.background = 'red'
+        window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
 
     function extractZip(fileName) {
       zip.extract(fileName, '/mnt/sdcard/', win, fail);

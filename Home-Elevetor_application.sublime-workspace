@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"cl",
+				"cl	cl"
+			],
+			[
 				"ex",
 				"extracting"
 			],
@@ -14,10 +18,6 @@
 			[
 				"che",
 				"checked"
-			],
-			[
-				"cl",
-				"click	click"
 			],
 			[
 				"pro",
@@ -348,10 +348,29 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 4955,
+				"buffer_size": 5591,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/ExtractZip.js",
+			"settings":
+			{
+				"buffer_size": 521,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "phonegap-plugin-ExtractZip\n==========================\n\nNow it supports Android and iOS within Phonegap 3.\n\nthere are two methods:\n\n* extract(fileName, destination)\n* getTempDir(name)\n\nInstalling\n======\nYou may use phonegap CLI as follows:\n\n<pre>\n➜ phonegap local plugin add https://github.com/fiscal-cliff/phonegap-plugin-ExtractZip.git\n[phonegap] adding the plugin: https://github.com/fiscal-cliff/phonegap-plugin-ExtractZip.git\n[phonegap] successfully added the plugin\n</pre>\n\nUsing\n====\n```javascript\n		document.addEventListener('deviceready', onDeviceReady);\n		function onDeviceReady() {\n				document.body.style.background = 'red'\n				window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');\n		}\n		function extractZip(fileName) {\n			zip.extract(fileName, '/sdcard/', win, fail);\n		}\n		function getTempDir(dirName) {\n			zip.getTempDir(dirName, win, fail);\n		}\n		function win(status) {\n			alert('Message: ' + status);\n		}\n		function fail(status) {\n			alert('Error: ' + status);\n		}\n```\n",
+			"file": "/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/README.md",
+			"file_size": 1001,
+			"file_write_time": 130274007260000000,
+			"settings":
+			{
+				"buffer_size": 1001,
 				"line_ending": "Unix"
 			}
 		}
@@ -556,11 +575,22 @@
 	},
 	"file_history":
 	[
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/cordova.js",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/index.html",
+		"/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/README.md",
+		"/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/plugin.xml",
+		"/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/www/ExtractZip.js",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/res/xml/plugins.xml",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/res/xml/config.xml",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/ZipPlugin.js",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/ZipPlugin.js",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/index.html",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/new-page.html",
+		"/C/Users/vipul.bsc/Desktop/index.html",
 		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/Home-Elevetor_application.sublime-project",
 		"/D/vipul/Home elevator ipad/PhoneGap-ZipFile-Plugin-2.3.0-master/PhoneGap-ZipFile-Plugin-2.3.0-master/www/index.html",
 		"/D/vipul/Home elevator ipad/PhoneGap-ZipFile-Plugin-master/PhoneGap-ZipFile-Plugin-master/README",
 		"/D/vipul/Home elevator ipad/PhoneGap-ZipFile-Plugin-master/PhoneGap-ZipFile-Plugin-master/www/index.html",
-		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/index.html",
 		"/C/Users/vipul.bsc/Documents/GitHub/FM-all/ZipPlugin.js",
 		"/D/vipul/manya/SAT/index.php",
 		"/C/Users/vipul.bsc/Documents/GitHub/FM-all/index.html",
@@ -672,18 +702,7 @@
 		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_en.xml.bak",
 		"/D/vipul/LG/diwali 2013/14 oct/css/animation.css",
 		"/D/vipul/LG/diwali 2013/14 oct/js/particle2.js",
-		"/D/vipul/LG/diwali 2013/14 oct/js/script.js",
-		"/D/vipul/LG/diwali 2013/14 oct/index.html",
-		"/D/vipul/LG/diwali 2013/14 oct/css/layout.css",
-		"/D/vipul/molife/dev/js/SpryTabbedPanels.js",
-		"/D/vipul/LG/diwali 2013/11 oct/js/script.js",
-		"/D/vipul/LG/diwali 2013/11 oct/index.html",
-		"/C/Users/vipul.bsc/Desktop/j2.htm",
-		"/D/vipul/LG/diwali 2013/animation/css/animation.css",
-		"/D/vipul/LG/diwali 2013/animation/js/jquery.firefly.js",
-		"/D/vipul/LG/diwali 2013/animation/js/particle.js",
-		"/D/vipul/LG/diwali 2013/animation/index2.html",
-		"/D/vipul/LG/diwali 2013/animation/js/script.js"
+		"/D/vipul/LG/diwali 2013/14 oct/js/script.js"
 	],
 	"find":
 	{
@@ -702,6 +721,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"exec",
 			"banner_container",
 			"width=\"438\" height=\"302\"",
 			"height=\"302\"",
@@ -828,8 +848,7 @@
 			"media",
 			"lightbox-0.4.css",
 			"jquery.lightbox-0.4.css",
-			"ifra",
-			"info"
+			"ifra"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -860,18 +879,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "www/index.html",
 					"settings":
 					{
-						"buffer_size": 4955,
+						"buffer_size": 5591,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3744,
-								3744
+								4048,
+								4051
 							]
 						],
 						"settings":
@@ -926,7 +945,150 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1860.0,
+						"translation.y": 2574.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/ExtractZip.js",
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								516
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/README.md",
+					"settings":
+					{
+						"buffer_size": 1001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								708,
+								595
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

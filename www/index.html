@@ -15,10 +15,8 @@
     http://www.JSON.org/json2.js into your www directory and include it here -->
     <script src="jquery.min.js">
     </script>
-    <script type="text/javascript" charset="utf-8" src="cordova.js">
-    </script>
-    <script type="text/javascript"  charset="utf-8" src="ExtractZip.js">
-    </script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript"  charset="utf-8" src="ZipPlugin.js"></script>
     <script type="text/javascript">
 
      function onBodyLoad() {
@@ -107,45 +105,48 @@
         console.log('start extracting now vip');
         
 
-//  function extractFile(fileName)
-// {
-//   alert(fileName + ' this is file name');
-//   alert(url);
-//   var ZipClient = new ExtractZipFilePlugin();
-//   ZipClient.extractFile( url,win,fail,'ExtractZipFilePlugin');
-// }
-// function win(status) 
-// { 
-//    alert('Success'+status);
-// } 
+ function extractZipFile(fileName)
+{
+  alert(fileName + ' this is file name');
+  alert(url);
+  var ZipClient = new ExtractZipFilePlugin();
+  ZipClient.extractZipFile( url,win,fail,'ExtractZipFilePlugin');
+}
+function win(status) 
+{ 
+   alert('Success'+status);
+} 
   
-// function fail(error) 
-// { 
-//   alert(error + ' is thiss error???');
-// }
- document.body.style.background = 'red'
-        window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
+function fail(error) 
+{ 
+  alert(error + ' is thiss error???');
+}
+ 
+ //-------------------Android--------------------
+ // document.body.style.background = 'red'
+ //        window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
 
-    function extractZip(fileName) {
-      zip.extract(fileName, '/mnt/sdcard/', win, fail);
-    }
-    function getTempDir(dirName) {
-      zip.getTempDir(dirName, win, fail);
-     }
-    function win(status) {
-      alert('Message: done hai' + status );
-    }
-    function fail(error) {
-      alert('Error: error ' + status );
-    }
+ //    function extractZip(fileName) {
+ //      zip.extract(fileName, '/mnt/sdcard/', win, fail);
+ //    }
+ //    function getTempDir(dirName) {
+ //      zip.getTempDir(dirName, win, fail);
+ //     }
+ //    function win(status) {
+ //      alert('Message: done hai' + status );
+ //    }
+ //    function fail(error) {
+ //      alert('Error: error ' + status );
+ //    }
 
 
 
        // extractFile(url);
         //extractFile(sPath + "/example/" + "site.zip");
         console.log('end extracting now vip, my func is fine ');
+        extractZipFile(sPath + "/example/" + "site.zip");
        // extractFile('example/site.zip');
-       extractZip('example/site.zip');
+       // extractZip('example/site.zip');
 
  }
 
@@ -190,7 +191,7 @@ for more details -jm */
 
 <a href="www/new-page.html">click  here</a>
 
-<iframe src="http://bluesapphirecreations.info/dev/home-elevator/" frameborder="0" width="900" height="500"  ></iframe>
+<iframe src="http://homeelevators.com/apple" frameborder="0" width="900" height="500"  ></iframe>
 
   </body>
   </html>

@@ -41,7 +41,7 @@
     var mySiteUrl = entry.fullPath + "/example/index.html"
     var divOpen = document.getElementById("open");
     divOpen.setAttribute("href", mySiteUrl);
-
+console.log(entry.fullPath + "/example/index.html");
   }
 
   function onGetDirectorySuccess(dir) {
@@ -65,7 +65,7 @@
       var fileTransfer = new FileTransfer();
       fileEntry.remove();
  
-      fileTransfer.download("http://bluesapphirecreations.info/design/d1/he-app/index.html", sPath + "/example/" + "index.html",
+      fileTransfer.download("http://bluesapphirecreations.info/design/d1/he-app/site.zip", sPath + "/example/" + "site.zip",
 
       function(theFile) {
         showLink(theFile.toURL());
@@ -121,7 +121,7 @@ function win(status)
 function fail(error) 
 { 
   // alert(error + ' is thiss error???');
-  .console.log(error + ' is thiss error???');
+   console.log(error + ' is thiss error???');
 }
  
  //-------------------Android--------------------

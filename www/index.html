@@ -38,10 +38,13 @@
       exclusive: false
     }, onGetDirectorySuccess, onGetDirectoryFail);
     // index link--------------
-    var mySiteUrl = entry.fullPath + "/example/index.html"
+    var mySiteUrl = entry.fullPath + "/example/site/index.html"
+    var mySiteUrl2 = entry.fullPath + "/example/site/phone-call-active-128.png"
     var divOpen = document.getElementById("open");
+    var divOpen2 = document.getElementById("open2");
     divOpen.setAttribute("href", mySiteUrl);
-console.log(entry.fullPath + "/example/index.html");
+    divOpen2.setAttribute("src", mySiteUrl2);
+console.log(entry.fullPath + "/example/site/index.html");
   }
 
   function onGetDirectorySuccess(dir) {
@@ -191,6 +194,7 @@ for more details -jm */
       <span id="ready">
       </span>
       <a href="#" id="open" style="display: none;">open</a>
+      <image src="" id="open2" style="display: none;">open</a>
     </p>
 
 <a href="example/index.html">click  here</a>

@@ -3,7 +3,16 @@
   <head>
     <title>
     </title>
-     
+    <!-- Android <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, user-scalable=no;" />
+    <meta charset="utf-8">
+    -->
+    <!-- iPad/iPhone specific css below, add after your main css>
+<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="/ipad.css" type="text/css" />
+<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="/iphone.css" type="text/css" />
+-->
+    <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from
+    http://www.JSON.org/json2.js into your www directory and include it here -->
     <script src="jquery.min.js">
     </script>
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
@@ -84,7 +93,14 @@ console.log(entry.fullPath + "/example/site/index.html");
   //alert(url);
   $("#open").show();
 
-  
+  //alert("start extracting");
+
+
+  // function extractFile(fileName) {
+  //   alert(fileName);
+  //   var ZipClient = new ExtractZipFilePlugin();
+  //   ZipClient.extractFile(fileName, win, fail, 'ExtractZipFilePlugin');
+  // }
   console.log(url + " ab check kro");
   //extractFile(url);
   
@@ -111,7 +127,27 @@ function fail(error)
    console.log(error + ' is thiss error???');
 }
  
-  
+ //-------------------Android--------------------
+ // document.body.style.background = 'red'
+ //        window.zip = cordova.require('cordova.plugin.ExtractZip.ExtractZip');
+
+ //    function extractZip(fileName) {
+ //      zip.extract(fileName, '/mnt/sdcard/', win, fail);
+ //    }
+ //    function getTempDir(dirName) {
+ //      zip.getTempDir(dirName, win, fail);
+ //     }
+ //    function win(status) {
+ //      alert('Message: done hai' + status );
+ //    }
+ //    function fail(error) {
+ //      alert('Error: error ' + status );
+ //    }
+
+
+
+       // extractFile(url);
+        //extractFile(sPath + "/example/" + "site.zip");
         console.log('end extracting now vip, my func is fine ');
         console.log(sPath + "/example/" + "site.zip");
 
@@ -126,7 +162,10 @@ function fail(error)
   console.log(evt.target.error.code);
  }
 
- 
+ /* When this function is called, PhoneGap has been initialized and is ready to roll */
+/* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
+see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+for more details -jm */
 
  function onDeviceReady() {
   // do your thing!
@@ -137,25 +176,28 @@ function fail(error)
     </script>
   </head>
   <body >
+    
 
-<div class="wrap">
-<h1>Home Elevator</h1>
-<div class="letest">
-<span> Refresh for latest version</span><a class="button" onclick="onBodyLoad()"  href="#">Refresh</a>
-</div>
-<div class="browse">
-<a href="#">Browse Now</a>
-</div>
-<div class="start">
-<a class="startbtn" href="example/index.html">Start</a>
-</div>
-</div>
-
-     <!--  <span id="ready">
+    <h1>
+      Home Elevator
+    </h1>
+    <p>
+      Don't know how to get started? Check out
+      <em>
+        <a target="_blank" href="/http://www.phonegap.com/start">PhoneGap Start</a>
+      </em>
+    </p>
+    <br />
+    <p>
+      DOWNLOADING FILE...
+      <input type="button" value="start" onclick="onBodyLoad()"   /> 
+      <br />
+      <span id="ready">
       </span>
       <a href="#" id="open" style="display: none;">open</a>
-      <image src="" id="open2" style="display: none;" alt="" /> -->
-    
+      <image src="" id="open2" style="display: none;" alt="" />
+    </p>
+<a href="example/index.html">click  here</a>
 
   </body> 
   </html>

@@ -351,7 +351,7 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 6134,
+				"buffer_size": 6135,
 				"line_ending": "Unix"
 			}
 		},
@@ -383,8 +383,8 @@
 			"file": "www/ExtractZip.js",
 			"settings":
 			{
-				"buffer_size": 521,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -731,7 +731,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 102.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -903,15 +903,15 @@
 					"file": "www/index.html",
 					"settings":
 					{
-						"buffer_size": 6134,
+						"buffer_size": 6135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6051,
-								6051
+								5991,
+								5991
 							]
 						],
 						"settings":
@@ -1159,15 +1159,15 @@
 					"file": "www/ExtractZip.js",
 					"settings":
 					{
-						"buffer_size": 521,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								506,
-								516
+								0,
+								0
 							]
 						],
 						"settings":

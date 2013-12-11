@@ -347,54 +347,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 6135,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/vipul.bsc/Desktop/Phonegap-extractzipfile-master/Phonegap-extractzipfile-master/www/ZipPlugin.js",
-			"settings":
-			{
-				"buffer_size": 604,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "res/xml/config.xml",
-			"settings":
-			{
-				"buffer_size": 104,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "res/xml/plugin.xml",
-			"settings":
-			{
-				"buffer_size": 2241,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/ExtractZip.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/README.md",
-			"settings":
-			{
-				"buffer_size": 1001,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
@@ -402,6 +354,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"f",
+				"Format Code"
+			],
 			[
 				"fe",
 				"Fetch: File"
@@ -413,10 +369,6 @@
 			[
 				"",
 				"About"
-			],
-			[
-				"f",
-				"Format Code"
 			],
 			[
 				"pack",
@@ -596,15 +548,26 @@
 	},
 	"file_history":
 	[
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/css/style.css",
+		"//Server/e/Design & Development/Current Projects/IPAD - Home elevator/home-elevator-start page/app.html",
+		"/D/vipul/sqlight.html",
+		"/C/Users/vipul.bsc/Desktop/amplify.html",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/index.html",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/index-no-design.html",
+		"/D/vipul/symmetryelevator/9-9-13/9-9-13/news/kudos-to-american-elevators.html",
+		"/C/Users/vipul.bsc/Desktop/2.html",
+		"/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/README.md",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/ExtractZip.js",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/res/xml/plugin.xml",
+		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/res/xml/config.xml",
+		"/C/Users/vipul.bsc/Desktop/Phonegap-extractzipfile-master/Phonegap-extractzipfile-master/www/ZipPlugin.js",
+		"//Server/e/Design & Development/Current Projects/IPAD - Home elevator/home-elevator-start page/css/style.css",
 		"/C/Users/vipul.bsc/Desktop/asd.html",
 		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/plugin.xml",
 		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/cordova.js",
-		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/index.html",
-		"/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/README.md",
 		"/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/plugin.xml",
 		"/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/www/ExtractZip.js",
 		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/res/xml/plugins.xml",
-		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/res/xml/config.xml",
 		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/www/ZipPlugin.js",
 		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/ZipPlugin.js",
 		"/C/Users/vipul.bsc/Documents/GitHub/Home-Elevetors/index.html",
@@ -712,18 +675,7 @@
 		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/.project",
 		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/.settings/org.eclipse.core.resources.prefs",
 		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/com/greensock/easing/easing_readme.txt",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/libs/mAssets/catalog.xml",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_en.xml",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_zh.xml",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/textLayout_2.0.0.232.swz",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/libs/mAssets.swf",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/libs/mAssets.swc",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/classes/display/video/VideoResultFail",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/com/greensock/loading/changelog.txt",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/com/greensock/changelog.txt",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_es.xml",
-		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/bin-debug/smi/lg_en.xml.bak",
-		"/D/vipul/LG/diwali 2013/14 oct/css/animation.css"
+		"/D/vipul/LG/red-man/G2_Mpis_SNS_UX/G2_Mpis_SNS_UX/Source files for developers/Microsite Flash source/libs/mAssets/catalog.xml"
 	],
 	"find":
 	{
@@ -742,6 +694,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<!--[endif]-->",
+			"<!--[if !supportLists]-->",
+			"mail.php",
+			"images",
 			"onBodyLoad",
 			"exec",
 			"banner_container",
@@ -865,11 +821,7 @@
 			"table",
 			"phone",
 			"stack",
-			"info",
-			"lightbox-0.4.css",
-			"media",
-			"lightbox-0.4.css",
-			"jquery.lightbox-0.4.css"
+			"info"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -895,408 +847,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "www/index.html",
-					"settings":
-					{
-						"buffer_size": 6135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5991,
-								5991
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4158.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/vipul.bsc/Desktop/Phonegap-extractzipfile-master/Phonegap-extractzipfile-master/www/ZipPlugin.js",
-					"settings":
-					{
-						"buffer_size": 604,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								584,
-								598
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "res/xml/config.xml",
-					"settings":
-					{
-						"buffer_size": 104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"is_xml": true,
-							"syntax": "Packages/XML/XML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "res/xml/plugin.xml",
-					"settings":
-					{
-						"buffer_size": 2241,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										40,
-										161
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								812,
-								845
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"is_xml": true,
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/ExtractZip.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/vipul.bsc/Desktop/phonegap-plugin-ExtractZip-master/phonegap-plugin-ExtractZip-master/README.md",
-					"settings":
-					{
-						"buffer_size": 1001,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								652,
-								659
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"is_xml": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
